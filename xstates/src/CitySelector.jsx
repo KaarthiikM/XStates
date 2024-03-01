@@ -15,6 +15,7 @@ const CitySelector = () => {
       .get("https://crio-location-selector.onrender.com/countries")
       .then((response) => {
         setCountries(response.data);
+        console.log(response.data)
       })
       .catch((error) => {
         console.error("Error fetching countries:", error);

@@ -1,6 +1,10 @@
+import CitySelector from "./CitySelector";
+
 function App() {
   return (
-    <div></div>
+    <div>
+      <CitySelector/>
+    </div>
   );
 }
 
